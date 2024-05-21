@@ -1,0 +1,18 @@
+@media (max-width:600px){
+    html{
+        font-size: 10px;
+    }
+    img{
+        width: 6rem;
+    }
+    .image1{
+        width: 30rem;
+    }
+    .container-second, .container-third{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+    }
+}
